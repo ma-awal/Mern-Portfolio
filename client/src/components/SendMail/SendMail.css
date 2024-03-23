@@ -1,0 +1,21 @@
+.primary_color {
+  color: var(--text-primary) !important;
+}
+.bg_color {
+  background: var(--text-primary) !important;
+  color: var(--text-secondary) !important;
+}
+.send_mail input,
+.send_mail textarea {
+  border-radius: 0;
+  color: var(--text-primary);
+  background: #f9f9f9;
+  font-size: 13px;
+  border: 1px solid var(--text-secondary);
+}
+
+.send_mail .save_btn {
+  background: var(--text-secondary) !important;
+  color: var(--text-primary) !important;
+  margin-top: 0.5rem;
+}

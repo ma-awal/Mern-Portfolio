@@ -1,0 +1,16 @@
+.about .about_img img {
+  border: 2px solid var(--text-secondary);
+  height: 200px;
+  object-fit: cover;
+}
+.about .about_btn {
+  border: 1px solid var(--text-secondary) !important;
+  color: var(--text-secondary) !important;
+  font-size: var(--text-sm);
+}
+
+.about p {
+  text-align: justify;
+  line-height: 20px;
+  margin: 0;
+}

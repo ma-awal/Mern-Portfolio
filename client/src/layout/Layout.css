@@ -1,0 +1,12 @@
+.main {
+  min-height: 86vh;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 768px) {
+  .main {
+    min-height: min-content;
+    padding: 5rem 0rem;
+  }
+}

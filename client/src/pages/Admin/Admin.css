@@ -1,0 +1,18 @@
+.admin .tab_btn {
+  border: 1px solid var(--text-secondary) !important;
+  color: var(--text-secondary) !important;
+  text-transform: uppercase;
+  font-size: var(--text-base);
+}
+
+.admin .tab_btn.active {
+  border: 1px solid var(--text-secondary);
+  background: var(--text-secondary);
+  color: var(--text-primary) !important;
+}
+
+@media (max-width: 768px) {
+  .admin .tab_btn {
+    font-size: var(--text-sm);
+  }
+}

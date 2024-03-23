@@ -1,0 +1,17 @@
+.skill_wrapper {
+}
+.single_skill {
+  background: #f9f9f9;
+  padding: 2rem 2rem;
+}
+
+.single_skill img {
+  object-fit: cover;
+  max-width: 42px;
+
+  padding: 0.1rem;
+}
+
+.single_skill span {
+  color: var(--text-primary) !important;
+}

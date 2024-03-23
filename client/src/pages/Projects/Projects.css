@@ -1,0 +1,34 @@
+.project_info p {
+  text-align: justify;
+}
+.porjects .single_project .img_wrapper {
+}
+.porjects .single_project img {
+  border: 2px solid var(--text-white);
+}
+.porjects .single_project h6 {
+  color: var(--text-white);
+  margin-top: 0.5rem;
+}
+
+.link_btns > button {
+  border: 1px solid var(--text-secondary) !important;
+  background: var(--text-secondary) !important;
+  font-size: var(--text-sm);
+  border-radius: 0;
+}
+.link_btns > button a {
+  color: var(--text-primary) !important;
+}
+.link_btns > button:nth-of-type(2) {
+  background: transparent !important;
+}
+.link_btns > button:nth-of-type(2) a {
+  color: var(--text-white) !important;
+}
+.link_btns > button:nth-of-type(2):hover {
+  background: var(--text-secondary) !important;
+}
+.link_btns > button:nth-of-type(2):hover a {
+  color: white !important;
+}

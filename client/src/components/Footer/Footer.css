@@ -1,0 +1,7 @@
+.footer {
+  background: var(--text-secondary);
+}
+
+.footer h6 {
+  color: var(--text-primary) !important;
+}

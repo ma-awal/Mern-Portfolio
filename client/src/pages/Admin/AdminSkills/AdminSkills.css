@@ -1,0 +1,12 @@
+.single_items {
+  background: #f9f9f9;
+  padding: 1rem 0.5rem;
+}
+.single_items img {
+  object-fit: cover;
+  max-width: 42px;
+}
+
+.single_items p {
+  color: var(--text-primary) !important;
+}

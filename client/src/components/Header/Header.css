@@ -1,0 +1,25 @@
+.nav_bar {
+  background: orange;
+
+  padding: 3rem 0rem;
+}
+
+.nav_icon span {
+  color: var(--text-primary);
+  font-size: 22px;
+}
+
+.nav_link a {
+  color: var(--text-primary) !important;
+  font-size: var(--text-base);
+  font-weight: var(--font-medium);
+}
+.nav_link a:hover {
+  color: var(--text-white) !important;
+}
+
+@media (max-width: 768px) {
+  .nav_bar {
+    padding: 1.5rem 0rem;
+  }
+}
